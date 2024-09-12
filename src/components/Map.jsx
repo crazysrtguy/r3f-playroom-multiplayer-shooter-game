@@ -3,7 +3,7 @@ import { RigidBody } from "@react-three/rapier";
 import { useEffect } from "react";
 
 export const Map = () => {
-  const map = useGLTF("models/map.glb");
+  const map = useGLTF("models/uploads_files_5355620_Full+GTA+V+MAP.glb");
   useEffect(() => {
     map.scene.traverse((child) => {
       if (child.isMesh) {
