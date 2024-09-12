@@ -20,4 +20,4 @@ export const Map = () => {
     </>
   );
 };
-useGLTF.preload("models/map.glb");
+useGLTF.preload("models/uploads_files_5355620_Full+GTA+V+MAP.glb");
